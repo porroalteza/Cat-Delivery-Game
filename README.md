@@ -1,21 +1,22 @@
-# Cat Delivery Game 🐱🎮
+# Cat Delivery Game
 
-A complete 2D grid-based delivery game built from scratch using **Python**. Players control a cat courier navigating a grid to pick up and deliver orders while managing unique constraints across different game modes.
+Este es un juego interactivo en 2D desarrollado en Python desde cero. El jugador controla a un gato repartidor que debe recoger y entregar pedidos en un mapa cuadriculado, adaptándose a las reglas de diferentes modos de juego.
 
-## 🛠️ Tech Stack & Concepts Implemented
-* **Language:** Python
-* **Estructuras de Datos Avanzadas:** 
-  * `heapq` (Priority Queues) to efficiently manage order priorities and deadlines.
-  * `deque` (Double-ended queues) for optimized game state tracking.
-* **Programming Paradigms:** Object-Oriented Programming (OOP) and strict data structuring using `@dataclass`.
+El proyecto me sirvió para poner en práctica conceptos clave de estructuras de datos y optimización en la carrera de Ingeniería de Sistemas.
 
-## 🎮 Game Modes
-1. **Classic Mode:** Standard delivery challenge.
-2. **Deadlines Mode:** Time-critical delivery system.
-3. **Energy Mode:** Strategic movement tracking where every step consumes energy.
-4. **Districts Mode (3x3):** Area-restricted navigation logistics.
+## Características y Lógica Aplicada
 
-## 🚀 How to Run
-Make sure you have Python installed, then run:
+* **Estructuras de datos:** Utilicé `heapq` para gestionar las prioridades y tiempos límite de las entregas, y `deque` para el manejo eficiente de los estados del juego.
+* **Organización del código:** Implementé Programación Orientada a Objetos (POO) y el uso de `@dataclass` para estructurar de forma limpia la información de los pedidos y las pantallas.
+* **Modos de juego:**
+  * **Modo Clásico:** El reto de entregas tradicional.
+  * **Modo Tiempos Límite (Deadlines):** Enfocado en la velocidad y entregas contra el reloj.
+  * **Modo Energía:** Cada movimiento consume energía, obligando a planificar la ruta y usar puntos de recarga.
+  * **Modo Barrios (3x3):** Logística de navegación restringida por zonas.
+
+## Cómo ejecutarlo
+
+Para probar el juego, asegúrate de tener Python instalado y ejecuta el archivo principal desde tu terminal:
+
 ```bash
-python main.py
+python CatDelivery.py
